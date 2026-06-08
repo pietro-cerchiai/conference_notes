@@ -57,7 +57,7 @@ export function Recorder({ userName, onContactSaved }: Props) {
             width: "100%",
             padding: "1.5rem",
             fontSize: "1.2rem",
-            backgroundColor: "#2563eb",
+            backgroundColor: "#2D2369",
             color: "white",
             border: "none",
             borderRadius: "12px",
@@ -79,7 +79,7 @@ export function Recorder({ userName, onContactSaved }: Props) {
             fontSize: "0.95rem",
             color: "#374151",
           }}>
-            <div style={{ color: "#dc2626", marginBottom: "0.5rem", fontWeight: 500 }}>
+            <div style={{ color: "#E91E8C", marginBottom: "0.5rem", fontWeight: 500 }}>
               ● Enregistrement en cours...
             </div>
             {transcript || <span style={{ color: "#9ca3af" }}>Parle maintenant...</span>}
@@ -119,7 +119,7 @@ export function Recorder({ userName, onContactSaved }: Props) {
           marginTop: "1rem",
           padding: "1rem",
           backgroundColor: "#fef2f2",
-          color: "#dc2626",
+          color: "#E91E8C",
           borderRadius: "8px",
         }}>
           {error}

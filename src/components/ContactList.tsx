@@ -29,7 +29,7 @@ export function ContactList({ contacts, onRefresh }: Props) {
           disabled={contacts.length === 0}
           style={{
             padding: "0.5rem 1rem",
-            backgroundColor: contacts.length === 0 ? "#e5e7eb" : "#059669",
+            backgroundColor: contacts.length === 0 ? "#e5e7eb" : "#2D2369",
             color: contacts.length === 0 ? "#9ca3af" : "white",
             border: "none",
             borderRadius: "8px",
@@ -60,6 +60,7 @@ export function ContactList({ contacts, onRefresh }: Props) {
               key={contact.id}
               contact={contact}
               onDelete={onRefresh}
+              onUpdate={onRefresh}
             />
           ))
       )}

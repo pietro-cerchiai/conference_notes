@@ -20,6 +20,7 @@ export interface Contact {
   company?: string
   orgType?: OrgType
   role?: string
+  email?: string
 
   // Résumé
   summary: string

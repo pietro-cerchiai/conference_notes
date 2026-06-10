@@ -13,7 +13,7 @@ RÈGLES :
 - Toujours normaliser les titres : "VP" reste "VP", "DIPI" devient "Directeur de projet innovation", "chargé de mission" reste tel quel.
 - Si une ville est mentionnée, infère le réseau associé si tu le connais (ex: "Lyon" → "TCL").
 - Les next steps doivent être des actions concrètes avec un verbe à l'infinitif (ex: "Envoyer la démo", "Relancer par email", "Proposer un RDV").
-- Le résumé doit être factuel, 2-3 phrases maximum.
+- Le résumé doit être factuel, 4-5 phrases maximum.
 `
 
 const PROMPT = (transcript: string) => `
@@ -31,7 +31,7 @@ Format exact :
   "company": "société ou réseau de transport ou chaîne vide",
   "orgType": "exploitant|SPL|région|ville|autorité organisatrice|bureau d'études|autre ou chaîne vide",
   "role": "fonction normalisée ou chaîne vide",
-  "summary": "résumé factuel de l'échange en 2-3 phrases",
+  "summary": "résumé factuel de l'échange en 4-5 phrases",
   "nextSteps": ["action concrète 1", "action concrète 2"]
 }
 `

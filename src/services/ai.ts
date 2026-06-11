@@ -19,7 +19,7 @@ RÈGLES :
 const PROMPT = (transcript: string) => `
 ${SYSTEM_PROMPT}
 
-À partir de cette dictée d'un échange lors d'une conférence, extrais les informations suivantes.
+À partir de cette dictée d'un échange lors d'une conférence (MOBCO), extrais les informations suivantes.
 
 Dictée : "${transcript}"
 
